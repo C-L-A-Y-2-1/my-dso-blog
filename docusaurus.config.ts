@@ -110,7 +110,7 @@ const config: Config = {
             },
             { 
               label: 'Projektseite',
-              to: '/docs/projekcts/overview',
+              to: '/docs/projects/overview',
             },
           ],
         },
