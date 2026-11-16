@@ -79,7 +79,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Lerntagebuch von Denis Dawydow',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -92,7 +92,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/spmse/dev-blog-template',
+          href: 'https://github.com/C-L-A-Y-2-1/my-dso-blog',
           label: 'Github',
           position: 'right',
         },
@@ -108,22 +108,9 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/guides/intro',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+            { 
+              label: 'Projektseite',
+              to: '/docs/projekcts/overview',
             },
           ],
         },
@@ -132,12 +119,16 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/C-L-A-Y-2-1/my-dso-blog',
+            },
+            {
+              label: 'Template',
+              href: 'https://github.com/Developer-Akademie-DevSecOpsKurs/dev-blog-template',
             }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sven Patrick Meier (spmse). Built with Docusaurus and 💚.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Denis Dawydow (C-L-A-Y-2-1). Extended from the developer-akademie-starter.`,
     },
     prism: {
       theme: prismThemes.github,
